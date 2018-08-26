@@ -1,0 +1,7 @@
+{
+  "/api*": {
+    "target": "https://api.korbit.co.kr/",
+    "secure": false,
+    "changeOrigin": true
+  }
+}

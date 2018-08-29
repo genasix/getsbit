@@ -1,10 +1,7 @@
 
 export const bitChart =
   {
-    chart: {
-      spacingLeft:40,
-      marginRight: 40
-    },
+
     rangeSelector: {
       buttons: [{
         count: 2,

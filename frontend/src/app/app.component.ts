@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {getChartData1, getChartData2} from "./chart-component/data/char-data";
-import {bitChart} from "./chart-component/data/bit-data";
+import {getChartData1, getChartData2} from "./component/chart-component/data/char-data";
+import {bitChart} from "./component/chart-component/data/bit-data";
 
 
 @Component({

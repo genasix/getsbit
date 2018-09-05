@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import {getChartData1, getChartData2} from "./component/chart-component/data/char-data";
-import {bitChart} from "./component/chart-component/data/bit-data";
 
 
 @Component({
@@ -11,11 +10,11 @@ import {bitChart} from "./component/chart-component/data/bit-data";
 export class AppComponent {
   chartData: any;
   constructor(){
-    // this.chartData = bitChart;
+    // this.chartData = currentChart;
   }
 
   updateChart(type){
-    // this.chartData = type === 'bar' ? bitChart : getChartData2;
+    // this.chartData = type === 'bar' ? currentChart : getChartData2;
   }
 
 }

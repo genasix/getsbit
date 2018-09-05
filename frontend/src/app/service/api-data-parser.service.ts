@@ -9,7 +9,6 @@ export class ApiDataParserService {
 
   }
 
-
   static paseCandleData(json){
     let candleData = [];
     let volumeData = [];
